@@ -6,9 +6,9 @@
     "node": "18.12.1"
   },
   "scripts": {
-    "start": "vue-cli-service serve",
+    
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "start": "npm run build && serve -s dist"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
@@ -32,5 +32,6 @@
     "webpack-plugin-vuetify": "^2.0.0-alpha.0"
   },
   "devDependencies": {
+    "compression-webpack-plugin": "^10.0.2"
   }
 }
