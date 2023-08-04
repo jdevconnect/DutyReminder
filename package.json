@@ -6,10 +6,9 @@
     "node": "18.12.1"
   },
   "scripts": {
-    
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "serve -s dist"
-    
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
