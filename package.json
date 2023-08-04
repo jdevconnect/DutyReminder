@@ -2,7 +2,9 @@
   "name": "duty-reminder",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+  "scripts": {    
+    "postinstall": "npm run build",
+    "start": "node server.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
